@@ -4,9 +4,10 @@ body {
     color:#ffffff;
 }
 
+/* board styles */
 .board {
+    margin-top: 50%;
     width: 100vw;
-    height: 100vh;
     align-content: center;
     justify-content: center;
     display: grid;
@@ -18,4 +19,18 @@ body {
     height: 100px;
     background-color: #ffffff;
     border: 3px solid black;
+}
+
+.info-box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+/* reset button styles */
+.reset-button {
+    width: 100px;
+    height: 50px;
+    align-content: center;
+    font-size: 110%;
 }

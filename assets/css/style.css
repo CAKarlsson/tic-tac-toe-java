@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    background-color: #6B5B95;
+    color:#ffffff;
+}
+
+.board {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.bSquare {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 3px solid black;
+}

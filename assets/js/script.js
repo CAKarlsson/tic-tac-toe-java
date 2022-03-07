@@ -1,6 +1,6 @@
-const player_x_class = "x"
-const player_o_class = "circle"
-const winning_combinations = [
+let player_x_class = "x"
+let player_o_class = "circle"
+let winning_combinations = [
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -11,3 +11,9 @@ const winning_combinations = [
     [2, 4, 6]
 ]
 
+let cellElements = document.querySelectorAll('[data-cell]')
+let boardElement = document.getElementById('board')
+let winBoxElement = document.getElementById('win-box')
+let restartButton = document.getElementById('restartButton')
+let winMessageElement = document.getElementById('win-message')
+let isPlayer_O_Turn = false
